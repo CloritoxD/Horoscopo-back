@@ -12,7 +12,7 @@ app.use(cors())
 app.use('/v1/signos', router);
 
 const corsOptions = {
-    origin: 'https://horoscopo-front-one.vercel.app', // Cambia este valor a la URL exacta de tu frontend
+    origin: 'https://vercel.live/link/horoscopo-front-ha3d.vercel.app', // Cambia este valor a la URL exacta de tu frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
     allowedHeaders: ['Content-Type', 'Authorization'], // Encabezados permitidos
     credentials: true // Si estás usando cookies o autenticación
